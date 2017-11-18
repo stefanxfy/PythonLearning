@@ -1,4 +1,4 @@
-i=2
+'''i=2
 zhishu=[]
 while(i<=100):
     for j in range(2,i-1):
@@ -10,3 +10,9 @@ while(i<=100):
         zhishu.append(i)
     i+=1
 print(zhishu)
+'''
+#  a,b交换
+a=1
+b=2
+a,b=b,a
+print("a:%s,b:%s"%(a,b))
